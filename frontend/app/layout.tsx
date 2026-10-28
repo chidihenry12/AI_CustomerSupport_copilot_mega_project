@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Euron — AI Customer Support",
+  title: "Posture — AI Customer Support",
   description: "Enterprise AI-powered customer support platform",
 };
 

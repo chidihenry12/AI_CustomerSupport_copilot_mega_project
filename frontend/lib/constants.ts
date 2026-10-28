@@ -1,6 +1,6 @@
 export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
 
-export const APP_NAME = "Euron";
+export const APP_NAME = "Posture";
 
 export const TICKET_STATUS_LABELS: Record<string, string> = {
   open: "Open",

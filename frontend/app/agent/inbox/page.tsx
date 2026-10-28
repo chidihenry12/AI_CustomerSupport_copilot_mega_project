@@ -65,7 +65,7 @@ const mockChats: InboxChat[] = [
         content:
           "I understand the issue. A 403 error after password reset typically happens when the session token hasn't been refreshed. Could you try logging out completely and logging back in?",
         sender: "ai",
-        senderName: "Euron AI",
+        senderName: "Posture AI",
         time: "10:32 AM",
       },
       {
@@ -81,7 +81,7 @@ const mockChats: InboxChat[] = [
         content:
           "I apologize for the inconvenience. Let me connect you with a support agent who can help resolve this directly.",
         sender: "ai",
-        senderName: "Euron AI",
+        senderName: "Posture AI",
         time: "10:34 AM",
       },
     ],
@@ -108,7 +108,7 @@ const mockChats: InboxChat[] = [
         content:
           "You can export data by going to Settings > Data > Export. Select CSV format and choose the date range. The file will be emailed to your registered address.",
         sender: "ai",
-        senderName: "Euron AI",
+        senderName: "Posture AI",
         time: "10:28 AM",
       },
       {
@@ -143,7 +143,7 @@ const mockChats: InboxChat[] = [
         content:
           "I'm sorry to hear about the payment issue. For billing matters, I'll connect you with a support agent who can look into your account directly.",
         sender: "ai",
-        senderName: "Euron AI",
+        senderName: "Posture AI",
         time: "10:20 AM",
       },
     ],
@@ -170,7 +170,7 @@ const mockChats: InboxChat[] = [
         content:
           "Of course! You can change your plan in Settings > Billing > Change Plan. Would you like me to walk you through it?",
         sender: "ai",
-        senderName: "Euron AI",
+        senderName: "Posture AI",
         time: "10:10 AM",
       },
       {

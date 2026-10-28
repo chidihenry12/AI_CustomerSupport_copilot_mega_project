@@ -40,11 +40,11 @@ export default function SettingsPage() {
   const [temperature, setTemperature] = useState("0.3");
   const [maxTokens, setMaxTokens] = useState("2048");
   const [systemPrompt, setSystemPrompt] = useState(
-    "You are a helpful customer support assistant for Euron. Answer questions based on the knowledge base. Be concise, professional, and accurate."
+    "You are a helpful customer support assistant for Posture. Answer questions based on the knowledge base. Be concise, professional, and accurate."
   );
 
   // General settings
-  const [supportEmail, setSupportEmail] = useState("support@euron.ai");
+  const [supportEmail, setSupportEmail] = useState("support@posture.ai");
 
   // Save state
   const [saving, setSaving] = useState(false);

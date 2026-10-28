@@ -24,7 +24,7 @@ export default function ChatPage() {
     {
       id: "welcome",
       content:
-        "Welcome to Euron Support! I'm your AI assistant. Ask me anything. If I can't help, I'll connect you with a human agent.",
+        "Welcome to Posture Support! I'm your AI assistant. Ask me anything. If I can't help, I'll connect you with a human agent.",
       sender_type: "ai",
       created_at: new Date().toISOString(),
     },
@@ -234,7 +234,7 @@ export default function ChatPage() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-text-primary">
-                  {escalated ? "Live Agent -- Sarah" : "Euron AI Assistant"}
+                  {escalated ? "Live Agent -- Sarah" : "Posture AI Assistant"}
                 </h3>
                 <span className="text-xs text-success">
                   {isConnected ? "Connected" : "Online"}
@@ -287,7 +287,7 @@ export default function ChatPage() {
                     {!isUser && (
                       <div className="flex items-center gap-1.5 mb-1">
                         <span className="text-xs font-medium text-text-muted">
-                          {msg.sender_type === "ai" ? "Euron AI" : "Sarah (Agent)"}
+                          {msg.sender_type === "ai" ? "Posture AI" : "Sarah (Agent)"}
                         </span>
                         <Badge variant={msg.sender_type === "ai" ? "brand" : "success"}>
                           {msg.sender_type === "ai" ? "AI" : "Agent"}

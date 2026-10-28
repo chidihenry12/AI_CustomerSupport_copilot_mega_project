@@ -1,5 +1,5 @@
 // ============================================
-// Euron — Core TypeScript Types
+// Posture — Core TypeScript Types
 // ============================================
 
 // --- Enums ---
